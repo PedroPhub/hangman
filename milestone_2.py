@@ -6,7 +6,7 @@ words_list = ['apple',
               'berry',
               'grape']
 
-def check_len(arg):
+def check_input(arg):
     if len(arg) == 1 & arg.isalpha():
         print('Good guess!')
         return 1
@@ -18,4 +18,4 @@ def check_len(arg):
 word = random.choice(words_list)
 guess = input('Please enter a letter: ')
 
-check_len(guess)
+check_input(guess)
